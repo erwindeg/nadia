@@ -5,6 +5,6 @@ import java.util.stream.Collectors;
 
 class Solution {
 	public int solution(int[] A) {
-		return Arrays.stream(A).distinct().map(e -> new Integer(e)).boxed().collect(Collectors.toList()).size();
+		return Arrays.stream(A).distinct().boxed().collect(Collectors.toList()).size();
 	}
 }
