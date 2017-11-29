@@ -1,7 +1,9 @@
 package nl.edegier.codility.lesson7;
 
 import java.util.Arrays;
-
+/*
+* Fish
+*/
 public class Solution {
 	public int solution(int[] A, int[] B) {
 		for (int i = 0; i < B.length; i++) {
